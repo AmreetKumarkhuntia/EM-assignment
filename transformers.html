@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfromers</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <h1 id="Transformer">Voltage Regulation calculation</h1>
+    <div class="main_container">
+        <div class="left">
+            <li><div class="form">Enter rating of Transformer in VA:</div></li>
+            <li><div class="form">Enter Voltage of Transformer:<in:</div></li>
+            <li><div class="form">Enter No load secondary voltage in V:</div></li>
+            <li><div class="form">Enter secondary winding resistance in Ω:</div></li>
+            <li><div class="form">Enter Secondary reactance in Ω :</div></li>
+            <li><div class="form">Enter Power factor at secondary:</div></li>
+        </div>
+        <div class="right">
+            <div><input type="text" id="1"></div>
+            <div><input type="text" id="volt"></div>
+            <div><input type="text" id="2"></div>
+            <div><input type="text" id="3"></div>
+            <div><input type="text" id="4"></div>
+            <div><input type="text" id="5"></div>
+        </div>
+    </div>
+    <div class="result">
+        <div class="form">Voltage Regulation % =<span id="output"></span></div>
+
+        <div class="form"><button id="submit" onclick="submit()">submit</button></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
